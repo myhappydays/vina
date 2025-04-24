@@ -1,0 +1,71 @@
+# Python 관련 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상 환경
+venv/
+ENV/
+env/
+
+# IDE 관련 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 로그 파일
+*.log
+vina_memory/logs/*
+!vina_memory/logs/.gitkeep
+
+# VINA 프로젝트 특화 항목
+# 배치 파일
+run_report*.bat
+
+# 리포트 디렉토리 관리
+vina_reports/*
+!vina_reports/README.md
+
+# 대화 기록 및 설정 파일
+# 구조를 유지하면서 개인 대화 기록은 제외
+vina_memory/facts.md
+vina_memory/contextual_rules.md
+vina_memory/explicit_rules.json
+
+# 개인 설정 파일
+.env
+.env.local
+.env.*.local
+
+# 테스트 및 디버깅 파일
+test_output.*
+test.py
+
+# 기타
+*.bak
+*.tmp
+*.temp
+node_modules/
+
+# 캐시 및 임시 파일
+.cache/
+pending_report.json 
